@@ -1,1 +1,1 @@
-# PSScripts
+# PowerShell Scripts for Power BI
