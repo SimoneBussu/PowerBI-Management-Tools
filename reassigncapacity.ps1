@@ -3,7 +3,6 @@
 Author: Simone Bussu
 LinkedIn: www.linkedin.com/in/simone-bussu
 Description: Assign a list of workspaces to a different Premium Capacity
-Date: 2024-06-19
 Version: 1.0
 
 #>
