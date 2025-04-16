@@ -3,13 +3,14 @@
 Author: Simone Bussu
 LinkedIn: www.linkedin.com/in/simone-bussu
 Description: Assign a list of workspaces to a different Premium Capacity
-Version: 1.0
+Version: 1.1
 
 #>
 
 #Set the variables for the log file
 $StartDate = Get-Date
 $TranscriptDate = (($StartDate.GetDateTimeFormats("s") -replace "-", "") -replace ":", "") -replace "T", "_"
+$TranscriptDate = $StartDate.ToString("yyyyMMdd_HHmmss")
 $TranscriptDir = "YourTranscriptDirectory"
 
 $TranscriptName = $TranscriptDate+"_"+"ReassignCapacity.txt"
