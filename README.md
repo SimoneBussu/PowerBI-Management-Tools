@@ -8,5 +8,6 @@ In this repository, you can find the PowerShell Scripts I made to simplify and /
 | AddUserToWorkspace_v1.0.ps1 | Add a user or a group to a list of Power BI workspaces or to all workspaces in your Organization. |
 
 #### Requirements
+- PowerShell 7 (Preferred) or Windows PowerShell
 - PowerShell with Power BI Management modules installed. Here is the link to the Microsoft documentation: https://learn.microsoft.com/en-us/powershell/power-bi/overview?view=powerbi-ps
 - Power BI tenant admin permissions
